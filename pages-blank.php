@@ -5,7 +5,6 @@
     <style type="text/css">
         img{
             width:80%;
-
         }
     </style>
     <meta charset="utf-8">
@@ -110,8 +109,6 @@
                 <!-- ============================================================== -->
                 <div class="row">
                     
-
-
                                 <div class="col-md-6">
                         <div class="card card-block">
                             <h3 class="box-title m-b-0">Sample Horizontal form</h3>
@@ -157,12 +154,37 @@
                                 </div>
                                 <div class="form-group m-b-0">
                                     <div class="offset-sm-3 col-sm-9">
-                                        <button type="submit" class="btn btn-info waves-effect waves-light m-t-10">Sign in</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">submit</button>
                                     </div>
                                 </div>
                             </form>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title" id="exampleModalLabel1">New message</h4>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="form-group">
+
+                                                        <label for="recipient-name" class="control-label">your response have been rocorded thank you</label>
+                                                        
+                                                    </div>
+                                                    
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">ok</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
+
                     <div class="col-md-6">
                         <img src="https://banner2.kisspng.com/20180713/czs/kisspng-web-development-web-design-logo-web-page-parallel-computing-5b48f9e5df2130.959073491531509221914.jpg"><br><br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -171,7 +193,6 @@
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
                                             </div>
                 </div>
                 <!-- ============================================================== -->
